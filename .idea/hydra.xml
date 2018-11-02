@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="D:\PROJECT-HWLING\Now-ing\scala_spark_flink_study\startBigData\.hydra\idea" />
+    <option name="noOfCores" value="2" />
+    <option name="projectRoot" value="D:\PROJECT-HWLING\Now-ing\scala_spark_flink_study\startBigData" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
+</project>
