@@ -81,7 +81,7 @@
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-java</artifactId>
       <version>${flink.version}</version>
-      <scope>provided</scope>
+     <!-- <scope>provided</scope>-->
     </dependency>
 
    <!--flink java 版本-->
@@ -89,7 +89,7 @@
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-java_2.11</artifactId>
       <version>${flink.version}</version>
-      <scope>provided</scope>
+    <!--  <scope>provided</scope>-->
     </dependency>
 
     <!--flink scala 版本-->
@@ -97,7 +97,7 @@
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-scala_2.11</artifactId>
       <version>${flink.version}</version>
-      <scope>provided</scope>
+     <!-- <scope>provided</scope>-->
     </dependency>
 
     <!--flink kafka 整合版本 -->
@@ -166,6 +166,11 @@
           </classpathContainers>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo </groupId>
+        <artifactId>build-helper-maven-plugin </artifactId>
+        <version>1.9.1 </version>
+      </plugin>
     </plugins>
   </build>
   <reporting>
@@ -179,4 +184,5 @@
       </plugin>
     </plugins>
   </reporting>
+
 </project>
